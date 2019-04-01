@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.box{
+     width: 100%;
+    height: 100%;
+    /*background: pink;*/
+    display: flex;
+    flex-direction: column;
+}
+header{
+     width: 100%;
+     height: 45px;
+     background: #fc3669;
+      display: flex;
+      align-items: center;
+}
+header>p{
+    color: black;
+    font-size: 20px;
+    margin-left: 160px;
+}
+section{
+    width: 100%;
+    overflow: auto;
+    flex: 1;
+    /*background: blue;*/
+}
+section>.con{
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+}
+section>.con>.tabh{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-bottom: 1px solid #ccc;
+}
+section>.con>.tabh p{
+    color: black;
+    font-size: 20px;
+    line-height: 45px;
+}
+section>.con>.tabb{
+ width: 100%;
+     height: auto;
+      display: flex;
+     flex-direction: column;
+}
+section>.con>.tabb>dl{
+    width: 100%;
+     height: 70px;
+       display: flex;
+     flex-direction: column;
+      border-bottom: 1px solid #ccc;
+}
+section>.con>.tabb>dl p{
+    color: blue;
+    font-size: 25px;
+}
+section>.con>.tabb>dl span{
+    color: black;
+    font-size: 16px;
+}
+footer{
+     width: 100%;
+     height: 75px;
+     /*background: #fc3669;*/
+      display: flex;
+     align-items: center;
+      justify-content: space-around;
+}
+footer>dl{
+    width: 60px;
+    height: 70px;
+}
+footer>dl>dt{
+     width: 60px;
+    height: 50px;
+}
+footer>dl>dt img{
+ width: 100%;
+    height: 100%;
+}
+footer>dl>dd{
+      width: 60px;
+    height: 15px;
+    font-size: 15px;
+  /*  margin-top: 5px; */
+    color: black;
+	 margin-left: 15px; 
+}
